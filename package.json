@@ -1,0 +1,31 @@
+{
+  "name": "node-legacy-versions",
+  "version": "1.0.0",
+  "description": "Simple package to get all node legacy version numbers",
+  "main": "index.js",
+  "scripts": {
+    "test": "tap test/*.js --cov",
+    "fetch": "./scripts/fetch.sh",
+    "update": "./scripts/fetch.sh | ./scripts/update.js"
+  },
+  "dependencies": {
+    "help": "~2.1.0",
+    "nopt": "~3.0.3"
+  },
+  "devDependencies": {
+    "tap": "~1.3.2"
+  },
+  "license": "MIT",
+  "bin": {
+    "node-legacy-versions": "./bin/cmd.js"
+  },
+  "author": "Evan Lucas <evanlucas@me.com>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/evanlucas/node-legacy-versions"
+  },
+  "homepage": "https://github.com/evanlucas/node-legacy-versions",
+  "bugs": {
+    "url": "https://github.com/evanlucas/node-legacy-versions/issues"
+  }
+}
