@@ -1,6 +1,6 @@
 {
   "name": "node-legacy-versions",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Simple package to get all node legacy version numbers",
   "main": "index.js",
   "scripts": {
